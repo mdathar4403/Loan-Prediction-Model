@@ -8,6 +8,34 @@ The Loan Status Prediction system typically utilizes a dataset that includes inf
 
 The system goes through several steps, including data preprocessing, feature engineering, model training, and prediction. 
 
+The Dataset Contains 13 features
+Let's discuss how each feature in the dataset could potentially impact the target feature, which is "Loan_Status" (indicating whether the loan was approved or not).
+
+**1) Loan_ID:** A unique identifier for each loan application. It doesn't contribute to the decision-making process but can be useful for record-keeping.
+
+**2) Gender:** Lending institutions might consider gender as a factor in loan approval, depending on historical data or institutional policies. For instance, if there's evidence of gender-based discrimination, it could affect loan approval.
+
+**3) Married:** Married individuals may be perceived as more financially stable and responsible.Lenders might be more inclined to approve loans for married applicants.
+
+**4) Dependents:** The number of dependents could influence loan approval, as more dependents might mean higher financial responsibilities. Lenders may assess the applicant's ability to repay the loan considering their family size.
+
+**5) Education:** The level of education might be a proxy for the applicant's earning potential and financial stability. Graduates may be perceived as having better job prospects and, consequently, higher repayment capabilities.
+
+**6) Self_Employed:** Self-employed individuals may face different income patterns compared to salaried individuals. Lenders might scrutinize the stability of self-employed applicants' income sources.
+
+**7) ApplicantIncome:** Higher income generally indicates a better ability to repay a loan. However, extremely high or low incomes might be red flags. Lenders may set income thresholds for loan approval.
+
+**8) CoapplicantIncome:** The income of the coapplicant can supplement the household income, affecting the overall repayment capacity. A higher coapplicant income may positively influence loan approval.
+
+**9) LoanAmount:** The amount of the loan applied for is crucial. Lenders will assess whether the requested loan amount aligns with the applicant's income and financial situation.
+
+**10) Loan_Amount_Term:** The term of the loan affects monthly repayment amounts. Shorter terms might indicate a quicker repayment ability, while longer terms might be associated with higher overall interest payments.
+
+**11) Credit_History:** This is likely one of the most critical factors. A good credit history (1.0) is generally associated with a higher likelihood of loan approval. Lenders heavily rely on credit history to assess risk.
+
+**12) Property_Area:** The location of the property can influence loan approval. Urban areas might have different risk profiles than rural areas, and lenders may have specific criteria for different regions.
+
+
 ## Steps involved in the Project
 
 1. **Dataset**: The project utilizes a dataset containing information about loan applications. The dataset includes features such as gender, marital status, number of dependents, education, employment status, income details, loan amount, loan amount term, credit history, property area, and the loan status (whether approved or not). ```Click on the dataset link```[click here](https://github.com/mdathar4403/Loan-Prediction-Model)
